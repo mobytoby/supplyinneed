@@ -1,0 +1,17 @@
+{
+  "name": "listsupplies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "tsc && rm function.zip < 0 && zip -r function.zip dist node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.51",
+    "@types/node": "^13.13.4",
+    "aws-sdk": "^2.666.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
