@@ -1,0 +1,14 @@
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Binaries for programs and plugins
+*.dll
+*.so
+*.dylib
+.DS_Store
+__debug_bin
+.vscode
+.env
+*.env
+
+
